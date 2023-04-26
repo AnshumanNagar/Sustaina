@@ -67,94 +67,34 @@ body{
     margin-top: 2%;
 }
 
-.con{
+.row{
     width: 100%;
-    height: 30%;
+    height: max-content;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.con h1{
+.goal{
+    width: 28%;
+    height: 100%;
+    border: 1px grey solid;
+    border-radius: 5px;
+}
+
+.goal img{
+    width: 100%; 
+    border-radius: 5px;
+}
+
+.goal h1{
     color: #f25464;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.con p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.con a{
-    color: cornflowerblue;
-    cursor: pointer;
-}
-
-.con img{
-    border-radius: 5px;
-    width: 30%;
-}
-
-#about{
-    width: 100%;
-    height: 100%;
-    background-color: #4FCEC2;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    margin-top: 2%;
-}
-
-#about h1{
-    color: #212431;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#about p{
-    width: 80%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-#images{
-    width: 100%; 
-    height:  100%;
-    margin-top: 3%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#images img{
-    width: 22%; 
-    border-radius: 5px;
-}
-
-#goals-area{
-    width: 100%; 
-    height: 100%;
-    margin-top: 3%;
     text-align: center;
 }
 
-#goals-area h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #f25464;
-    font-size: 40px;
-}
-
-#goals-area a{
-    text-decoration: none;
-    padding: 1%;
-    color: #f25464;
-    background-color: transparent;
-    border: 2px solid #f25464;
-    border-radius: 5px;
+.goal p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    transition-duration: 0.3s;
-}
-
-#goals-area a:hover{
-    background-color: #f25464;
-    color: white;
-    transition-duration: 0.3s;
 }
 
 #footer{
